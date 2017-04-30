@@ -1,0 +1,100 @@
+.container {
+    margin-bottom: 20px;
+}
+
+.navbar-brand-logo {
+    width: 140px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../img/logomarca-200-1000-cinza.png);
+    background-size: 140px;
+    background-repeat: no-repeat;
+    text-align: right;
+    margin-top: -4px;
+}
+
+.navbar-brand-logo:hover {
+	background-image: url('../img/logomarca-200-1000-branco.png');
+}
+
+#input-telefone {
+	width: 60%;
+}
+
+#input-id-email-tjsp {
+	text-align: right;
+}
+
+#span-dominio-email-tjsp {
+	width: 50%;
+	text-align: left;
+}
+
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 7px;
+    border-radius: 3px;
+}
+.bs-callout h2, .bs-callout h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout dl:last-child {
+    margin-bottom: 0;
+}
+.bs-callout dl dt {
+    /*border-top: 1px dotted #eee;*/
+    padding-top: 1.5em;
+    font-size: 0.85em;
+    color: #888;
+}
+.bs-callout dl dd {
+    margin-left: 60px;
+    font-weight: bold;
+    color: #666;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h2, .bs-callout-default h3, .bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+.bs-callout-primary h2, .bs-callout-primary h3, .bs-callout-primary h4 {
+    color: #428bca;
+}
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+.bs-callout-success h2, .bs-callout-success h3, .bs-callout-success h4 {
+    color: #5cb85c;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h2, .bs-callout-danger h3, .bs-callout-danger h4 {
+    color: #d9534f;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-warning h2, .bs-callout-warning h3, .bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info h2, .bs-callout-info h3, .bs-callout-info h4 {
+    color: #5bc0de;
+}
+
+ul.list-permutz li {
+    margin-left: 40px;
+}
